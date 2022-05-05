@@ -11,11 +11,11 @@ por el usuario, determine si el cliente tiene
 descuento o no.
 */
 let mes: string | null = prompt(
-  "Ingrese el mes de la compra.",
-  "Por ejemplo: Octubre."
+  "Ingrese el mes de la compra (en minúsculas).",
+  "Por ejemplo: octubre"
 );
 
-if (mes === "octubre") {
+if (mes == "octubre") {
   alert(
     "¡Su compra tiene un descuento del 15%! Este mes celebramos otro cumpleaños de nuestra querida tienda y queremos ofrecer a nuestros clientes este descuento en todas sus compras."
   );
